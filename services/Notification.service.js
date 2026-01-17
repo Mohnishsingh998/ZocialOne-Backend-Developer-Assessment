@@ -27,7 +27,7 @@ export async function sendComplaintNotification({
     is_sent: true,
   });
 
-  console.log("📩 Notification Sent:", {
+  console.log("Notification Sent:", {
     id: notification.id,
     user_id,
     title,
